@@ -1,5 +1,5 @@
 function Tempo(props){
-    console.log('> Passando pela Frontend;');
+    console.log('> Passando pela Frontend');
     const dynamicDate= new Date();
     const dynamicDateString= dynamicDate.toGMTString();
 
@@ -12,8 +12,8 @@ function Tempo(props){
 }
 
 export async function getStaticProps() {
-console.log('> Passando pelo getStaticProps();');
-console.log('> Adicionando delay de 5 segundos)');
+console.log('> Passando pelo getStaticProps()');
+console.log('> Adicionando delay de 5 segundos');
 
 await delay(5000);
     const staticDate = new Date();
